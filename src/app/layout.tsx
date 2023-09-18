@@ -1,10 +1,10 @@
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Cinzel } from 'next/font/google'
 import Navbar from './navbar/Navbar'
 import { ReactNode } from 'react'
 
-const inter = Inter({ subsets: ['latin'] })
+const cinzel = Cinzel({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'The Waris'
@@ -17,7 +17,7 @@ export default function RootLayout ({
 }) {
   return (
     <html lang='es'>
-      <body className={inter.className}>
+      <body className={cinzel.className}>
         <header>
           <Navbar />
         </header>

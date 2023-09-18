@@ -1,1 +1,1 @@
-export { default as IconsHome} from './icons-home/IconsHome.component';
+export { default as IconsHome } from './icons-home/IconsHome.component'

@@ -10,8 +10,30 @@ export default function Home () {
         <IconsHome />
       </section>
 
-      <section className='flex items-center justify-center h-screen xl:justify-start'>
-        <Image src='/homepage/logo2.png' alt='Logo2' width={600} height={600} />
+      <section className='flex flex-col-reverse items-center justify-center h-screen gap-10 lg:flex-row lg:gap-24'>
+        <div className='max-w-[700px]'>
+          <Image
+            src='/homepage/logo2.png'
+            alt='Logo2'
+            width={600}
+            height={600}
+          />{' '}
+        </div>
+        <div className='flex flex-col items-center gap-5 text-center lg:text-3xl text-1xl text-primary'>
+          <p>
+            LA COSECHA DE LAS <br />
+            MALAS SIEMBRAS
+          </p>
+          <p>
+            <b>NUEVO ÁLBUM</b>
+          </p>
+          <Link
+            href='https://open.spotify.com/intl-es/album/20fCxibOkmz9GHdwtojl3H'
+            className='px-10 py-4 mt-3 text-black bg-primary hover:bg-gray-300'
+          >
+            ESCÚCHALO YA
+          </Link>
+        </div>
       </section>
 
       <section className='flex flex-col-reverse items-center justify-center h-screen gap-10 lg:flex-row lg:gap-24'>
@@ -21,10 +43,12 @@ export default function Home () {
             MALAS SIEMBRAS
           </p>
           <p>
-            <b>CD JEWEL CASE, BOOKLET <br />& PÓSTER</b>
+            <b>
+              CD JEWEL CASE, BOOKLET <br />& PÓSTER
+            </b>
           </p>
           <Link
-            href='/'
+            href='https://www.instagram.com/p/Cw597UrPUpE/?img_index=1'
             className='px-10 py-4 mt-3 text-black bg-primary hover:bg-gray-300'
           >
             ADQUIÉRELO YA

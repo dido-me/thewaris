@@ -4,11 +4,11 @@ import { FiMenu } from 'react-icons/fi'
 const navLinks = [
   {
     text: 'Discografía',
-    url: '/discografia'
+    url: 'https://open.spotify.com/intl-es/artist/1YHKb15AHSedTJuey2Ndnq'
   },
   {
     text: 'Merch',
-    url: '/merch'
+    url: 'https://www.flipsnack.com/77A55BEEFB5/cat-logo-the-waris-2023.html'
   },
   {
     text: 'Conciertos',

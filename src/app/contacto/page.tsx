@@ -22,8 +22,28 @@ export default function Contacto () {
           Leonardo Zaga
         </p>
         <div>
-          <p>diseño web y dirección de arte por andré zevallos</p>
-          <p>con asesoría de mayde jurado</p>
+          <p>
+            diseño web y dirección de arte por{' '}
+            <a
+              href='https://www.linkedin.com/in/andrezevallosgarcia/'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-white'
+            >
+              andré zevallos
+            </a>
+          </p>
+          <p>
+            con asesoría de{' '}
+            <a
+              href='https://www.linkedin.com/in/mayde-n-jurado-navarro-7a3a33128/'
+              target='_blank'
+              rel='noreferrer'
+              className='hover:text-white'
+            >
+              mayde jurado
+            </a>
+          </p>
           <p>
             desarrollo web{' '}
             <a

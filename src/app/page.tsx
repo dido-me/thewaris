@@ -30,6 +30,7 @@ export default function Home () {
           <Link
             href='https://open.spotify.com/intl-es/album/20fCxibOkmz9GHdwtojl3H'
             className='px-10 py-4 mt-3 text-black bg-primary hover:bg-gray-300'
+            target='_blank' rel='noreferrer'
           >
             ESCÚCHALO YA
           </Link>
@@ -48,8 +49,9 @@ export default function Home () {
             </b>
           </p>
           <Link
-            href='https://www.instagram.com/p/Cw597UrPUpE/?img_index=1'
+            href='https://api.whatsapp.com/send?phone=51966101172&text=Hola%20quisiera%20comprar%20este%20art%C3%ADculo!%20%F0%9F%98%8A'
             className='px-10 py-4 mt-3 text-black bg-primary hover:bg-gray-300'
+            target='_blank' rel='noreferrer'
           >
             ADQUIÉRELO YA
           </Link>
